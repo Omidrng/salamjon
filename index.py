@@ -87,20 +87,19 @@ for i in range(countloop1):
 
 
         if 'OK' in allir:
-            print(config)
+            config1 = config
             countryres = requests.get(f"http://ip-api.com/json/{configip}")
             countryrestext = countryres.text
             countryresjson = json.loads(countryrestext)
             countrycode = countryresjson['countryCode']
-            print("Country:",countryresjson['country'] + f"({countrycode})")
+            config1c = "Country:" + " " + countryresjson['country'] + f"({countrycode})"
             if "OK" in ir1tehran1 or "OK" in ir1tehran2 or "OK" in ir1tehran3 or "OK" in ir1tehran4:
                 tehran = "Tehran"
             if "OK" in ir4tabriz1 or "OK" in ir4tabriz2 or "OK" in ir4tabriz3 or "OK" in ir4tabriz4:
                 tabriz = "Tabriz"
             if "OK" in ir3shiraz1 or "OK" in ir3shiraz2 or "OK" in ir3shiraz3 or "OK" in ir3shiraz4:
                 shiraz = "Shiraz"
-            print(tehran + " & " + tabriz + " & " + shiraz)
-            print("________________________________")
+            config1r = tehran + " & " + tabriz + " & " + shiraz
         else:
             a = 'a'
     except:
@@ -176,20 +175,19 @@ if "vmess://" in zhh:
 
 
                     if 'OK' in allir:
-                        print(config)
+                        config6 = config
                         countryres = requests.get(f"http://ip-api.com/json/{vmess_ip}")
                         countryrestext = countryres.text
                         countryresjson = json.loads(countryrestext)
                         countrycode = countryresjson['countryCode']
-                        print("Country:",countryresjson['country'] + f"({countrycode})")
+                        config2c = "Country:" + " " + countryresjson['country'] + f"({countrycode})"
                         if "OK" in ir1tehran1 or "OK" in ir1tehran2 or "OK" in ir1tehran3 or "OK" in ir1tehran4:
                             tehran = "Tehran"
                         if "OK" in ir4tabriz1 or "OK" in ir4tabriz2 or "OK" in ir4tabriz3 or "OK" in ir4tabriz4:
                             tabriz = "Tabriz"
                         if "OK" in ir3shiraz1 or "OK" in ir3shiraz2 or "OK" in ir3shiraz3 or "OK" in ir3shiraz4:
                             shiraz = "Shiraz"
-                        print(tehran + " & " + tabriz + " & " + shiraz)
-                        print("________________________________")
+                        config2r = tehran + " & " + tabriz + " & " + shiraz
 
                     else:
                         a = 'a'
@@ -265,20 +263,19 @@ if "vmess://" in zhh:
 
 
                     if 'OK' in allir:
-                        print(config)
+                        config5 = config
                         countryres = requests.get(f"http://ip-api.com/json/{vmess_ip}")
                         countryrestext = countryres.text
                         countryresjson = json.loads(countryrestext)
                         countrycode = countryresjson['countryCode']
-                        print("Country:",countryresjson['country'] + f"({countrycode})")
+                        config3c = "Country:" + " " + countryresjson['country'] + f"({countrycode})"
                         if "OK" in ir1tehran1 or "OK" in ir1tehran2 or "OK" in ir1tehran3 or "OK" in ir1tehran4:
                             tehran = "Tehran"
                         if "OK" in ir4tabriz1 or "OK" in ir4tabriz2 or "OK" in ir4tabriz3 or "OK" in ir4tabriz4:
                             tabriz = "Tabriz"
                         if "OK" in ir3shiraz1 or "OK" in ir3shiraz2 or "OK" in ir3shiraz3 or "OK" in ir3shiraz4:
                             shiraz = "Shiraz"
-                        print(tehran + " & " + tabriz + " & " + shiraz)
-                        print("________________________________")
+                        config3r = tehran + " & " + tabriz + " & " + shiraz
 
                     else:
                         a = 'a'
@@ -354,20 +351,19 @@ if "vmess://" in zhh:
 
 
                     if 'OK' in allir:
-                        print(config)
+                        config4 = config
                         countryres = requests.get(f"http://ip-api.com/json/{vmess_ip}")
                         countryrestext = countryres.text
                         countryresjson = json.loads(countryrestext)
                         countrycode = countryresjson['countryCode']
-                        print("Country:",countryresjson['country'] + f"({countrycode})")
+                        config5c = "Country:" + " " + countryresjson['country'] + f"({countrycode})"
                         if "OK" in ir1tehran1 or "OK" in ir1tehran2 or "OK" in ir1tehran3 or "OK" in ir1tehran4:
                             tehran = "Tehran"
                         if "OK" in ir4tabriz1 or "OK" in ir4tabriz2 or "OK" in ir4tabriz3 or "OK" in ir4tabriz4:
                             tabriz = "Tabriz"
                         if "OK" in ir3shiraz1 or "OK" in ir3shiraz2 or "OK" in ir3shiraz3 or "OK" in ir3shiraz4:
                             shiraz = "Shiraz"
-                        print(tehran + " & " + tabriz + " & " + shiraz)
-                        print("________________________________")
+                        config4r = tehran + " & " + tabriz + " & " + shiraz
 
                     else:
                         a = 'a'
@@ -443,20 +439,19 @@ if "vmess://" in zhh:
 
 
                     if 'OK' in allir:
-                        print(config)
+                        config3 = config
                         countryres = requests.get(f"http://ip-api.com/json/{vmess_ip}")
                         countryrestext = countryres.text
                         countryresjson = json.loads(countryrestext)
                         countrycode = countryresjson['countryCode']
-                        print("Country:",countryresjson['country'] + f"({countrycode})")
+                        config6c = "Country:" + " " + countryresjson['country'] + f"({countrycode})"
                         if "OK" in ir1tehran1 or "OK" in ir1tehran2 or "OK" in ir1tehran3 or "OK" in ir1tehran4:
                             tehran = "Tehran"
                         if "OK" in ir4tabriz1 or "OK" in ir4tabriz2 or "OK" in ir4tabriz3 or "OK" in ir4tabriz4:
                             tabriz = "Tabriz"
                         if "OK" in ir3shiraz1 or "OK" in ir3shiraz2 or "OK" in ir3shiraz3 or "OK" in ir3shiraz4:
                             shiraz = "Shiraz"
-                        print(tehran + " & " + tabriz + " & " + shiraz)
-                        print("________________________________")
+                        config5r = tehran + " & " + tabriz + " & " + shiraz
 
                     else:
                         a = 'a'
@@ -527,20 +522,19 @@ if "ss://" in zhh:
 
 
                 if 'OK' in allir:
-                    print(config)
+                    config2 = config
                     countryres = requests.get(f"http://ip-api.com/json/{configip}")
                     countryrestext = countryres.text
                     countryresjson = json.loads(countryrestext)
                     countrycode = countryresjson['countryCode']
-                    print("Country:",countryresjson['country'] + f"({countrycode})")
+                    config4c = "Country:" + " " + countryresjson['country'] + f"({countrycode})"
                     if "OK" in ir1tehran1 or "OK" in ir1tehran2 or "OK" in ir1tehran3 or "OK" in ir1tehran4:
                         tehran = "Tehran"
                     if "OK" in ir4tabriz1 or "OK" in ir4tabriz2 or "OK" in ir4tabriz3 or "OK" in ir4tabriz4:
                         tabriz = "Tabriz"
                     if "OK" in ir3shiraz1 or "OK" in ir3shiraz2 or "OK" in ir3shiraz3 or "OK" in ir3shiraz4:
                         shiraz = "Shiraz"
-                    print(tehran + " & " + tabriz + " & " + shiraz)
-                    print("________________________________")
+                    config6r = tehran + " & " + tabriz + " & " + shiraz
                 else:
                     a = 'a'
             except:
@@ -549,3 +543,11 @@ if "ss://" in zhh:
             srop = "dd"
 else:
     error = 'error'
+
+
+hhkhat = "_________________________________________"
+try:
+    realmessage = f"{hhkhat}\n{config1}\n{config1c}\n{config1r}\n{hhkhat}\n{config2}\n{config2c}\n{config2r}\n{hhkhat}\n{config3}\n{config3c}\n{config3r}\n{hhkhat}\n{config4}\n{config4c}\n{config4r}\n{hhkhat}\n{config5}\n{config5c}\n{config5r}\n{hhkhat}\n{config6}\n{config6c}\n{config6r}\n{hhkhat}"
+    print(realmessage)
+except:
+    asasa = "wetdd"
